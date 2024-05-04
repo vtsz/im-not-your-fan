@@ -79,7 +79,7 @@ const FolderUpload = () => {
       )}
       {isFile1Uploaded && isFile2Uploaded && (
         <div>
-          <h3>Your fans:</h3>
+          <h3>You are a fan of:</h3>
           <p><RenderNames following={fileContent1} followers={fileContent2} /></p>
         </div>
       )}
